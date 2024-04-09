@@ -19,7 +19,7 @@ Thank you for signing up to our PowerBI Hackathon! Here is some important inform
 
 ## 2.1 PowerBI workflows
 
-{speak with Fluke I liked the idea of the flowchart that he mentioned}
+{speak with Fluke I liked the idea of the flowchart that he mentioned} Yes!
 
 ## 2.2 Accessing PowerBI & DASH data
 
