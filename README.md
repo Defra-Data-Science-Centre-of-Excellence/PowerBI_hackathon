@@ -5,7 +5,7 @@
 
 <br>
 
-# 1. Introruction
+# 1. Introduction
 
 Thank you for signing up to our Power BI Hackathon! Here is some important information for the day:
 
@@ -39,13 +39,13 @@ If you are not already a Power BI evangelist, fear not. Power BI is an extremely
 
 # 3. Developing a product
 
-## 3.1 Penguins
+## 3.1 Penguins (Basic)
 
 Here is the PDF copy of the Power BI report that uses the penguin dataset. This report will be more suitable to people with limited or no previous experience on Power BI. It focuses mainly on showcasing the 'power' and versatility of Power BI, without focussing too much on the most complex parts of working with Power BI, such as DAX and PowerQuery.
 
 ## 3.2 Leeds environmental service requests (Advanced)
 
-Here is the PDF copy of the Power BI report that uses the Leeds service request data. This report will be more suitable for you if you already feel somewhat confortable with Power BI. It brings together all the features of Power BI, including importing data to DASH, advanced data cleaning in Power Query, creating measures using DAX and geospatial work.
+Here is the PDF copy of the Power BI report that uses the Leeds service request data. This report will be more suitable for you if you already feel somewhat confortable with Power BI. It brings together all the features of Power BI, including importing data to DASH, advanced data cleaning in Power Query, creating measures using DAX and geospatial analysis.
 
 [Data Source](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
 
@@ -79,7 +79,7 @@ We hope you enjoyed spending the day on the DASH platform and we hope to see you
 
 # 5. List of Links used
 
-- Playbook
+- [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/)
 - SharePoint
 - Penguins report
-- Leeds service requst
+- [Leeds Environmental Service Requests](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
