@@ -45,9 +45,9 @@ Here is the PDF copy of the Power BI report that uses the penguin dataset. This 
 
 ## 3.2 Leeds environmental service requests (Advanced)
 
-Here is the PDF copy of the Power BI report that uses the Leeds service request data. This report will be more suitable for you if you already feel somewhat confortable with Power BI. It brings together all the features of Power BI, including advanced data cleaning in Power Query, creating measures using DAX and geospatial work.
+Here is the PDF copy of the Power BI report that uses the Leeds service request data. This report will be more suitable for you if you already feel somewhat confortable with Power BI. It brings together all the features of Power BI, including importing data to DASH, advanced data cleaning in Power Query, creating measures using DAX and geospatial work.
 
-\href{https://www.example.com}{Data source}
+[Data Source](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
 
 ## 3.3 Using your own data
 
