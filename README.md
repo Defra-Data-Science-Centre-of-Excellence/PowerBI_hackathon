@@ -1,4 +1,4 @@
-# Power BI in the Data and Analysis Science Hub (DASH) platform
+# Power BI in the Data Analytics & Science Hub (DASH) platform
 
 ### Date: 19/04/2024
 ### Authors: Margarita Tsakiridou, Fluke Kasemsubphaisarn, Kate Hutchinson
