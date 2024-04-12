@@ -17,9 +17,14 @@ Thank you for signing up to our Power BI Hackathon! Here is some important infor
 
 # 2. Setting the scene
 
-## 2.1 Power BI workflows
+## 2.1 Power BI data workflows
 
-{speak with Fluke I liked the idea of the flowchart that he mentioned} Yes!
+Data Flowchart           |  Import Guide for Web & Data Lake
+:-------------------------:|:-------------------------:
+![](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png)  |  ![](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)
+
+![screenshot](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png)
+![screenshot](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)
 
 ## 2.2 Accessing Power BI & DASH data
 
