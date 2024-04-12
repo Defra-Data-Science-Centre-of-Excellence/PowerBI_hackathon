@@ -19,11 +19,13 @@ Thank you for signing up to our Power BI Hackathon! Here is some important infor
 
 ## 2.1 Power BI data workflows
 
-Data Flowchart           |  Import Guide for Web & Data Lake
-:-------------------------:|:-------------------------:
-![](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png)  |  ![](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)
+There's a variety of ways to import data but most of the time, you will only need to import data from the Sharepoint, OneDrive or Data Lake. The flow chart below guides you through the steps to take to import data from those areas.
+
+<img src="https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png" alt="Importing data workflow" width="400" height="400">
 
 _Data Lake copy & paste link: https://prddapdlkst2401.dfs.core.windows.net/_
+
+_[Guidance with screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)_
 
 ## 2.2 Accessing Power BI & DASH data
 
