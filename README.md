@@ -3,7 +3,7 @@
 ### Date: 19/04/2024
 ### Authors: Margarita Tsakiridou, Fluke Kasemsubphaisarn, Kate Hutchinson
 
-<br>
+---
 
 # 1. Introduction
 
@@ -12,7 +12,7 @@ Thank you for signing up to our Power BI Hackathon! Here is some important infor
 - We assume that you are already onboarded to the platform. If true, you should be able to access our [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/#content).
 - The point of this hackathon is to help you create a finished product on the DASH platform. We have prepared this tutorial/walkthrough using sample datasets, but you are very welcome to use other datasets of the DASH platform or your own data to create your product.
 - If you chose to replicate the reports we have prepared for today, you will find within this repository their PDFs. .pbix are also available, but we'd advise you to not use these from the beginning.
-
+  
 <br>
 
 # 2. Setting the scene
