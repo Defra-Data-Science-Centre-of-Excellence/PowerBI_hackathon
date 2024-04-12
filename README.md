@@ -23,8 +23,7 @@ Data Flowchart           |  Import Guide for Web & Data Lake
 :-------------------------:|:-------------------------:
 ![](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png)  |  ![](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)
 
-![screenshot](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png)
-![screenshot](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)
+_Data Lake copy & paste link: https://prddapdlkst2401.dfs.core.windows.net/_
 
 ## 2.2 Accessing Power BI & DASH data
 
