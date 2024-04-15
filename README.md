@@ -31,11 +31,9 @@ If you are not already a Power BI evangelist, fear not. Power BI is an extremely
 
 ## 2.3 Power BI data workflows
 
-There's a variety of ways to import data but most of the time, you will only need to import data from the Sharepoint, OneDrive or Data Lake (the DASH platfrom!). The flow chart below guides you through the steps to take to import data from those areas.
+There's a variety of ways to import data but most of the time, you will only need to import data from the Sharepoint, OneDrive or Data Lake (the DASH platfrom!). The flow chart below guides you through the steps to take to import data from those areas. We have also provided detailed [guidance with screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/belob/main/Power%20BI%20Data%20Process%20(2).png) for each of the processes described in our flowchart.
 
 <img src="https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png" alt="Importing data workflow" width="800" height="800">
-
-We have also provided detailed_[guidance with screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/belob/main/Power%20BI%20Data%20Process%20(2).png)_for each of the processes described in our flowchart.
 
 <br>
 
@@ -49,9 +47,9 @@ Here is the [PDF copy](https://github.com/Defra-Data-Science-Centre-of-Excellenc
 
 Here is the PDF copy of the Power BI report that uses the Leeds service request data. This report will be more suitable for you if you already feel somewhat comfortable with Power BI. It brings together all the features of Power BI, including importing data to DASH, advanced data cleaning in Power Query, creating measures using DAX and geospatial analysis.
 
-This report uses a dataset on Environment Service Requests received by Leeds City Council, which is available [here](https://datamillnorth.org/dataset/e61k0/environmental-service-requests). The data is available in Fluke's data lake workspace (location path is shown below). However, we'd recommend you try to download the data and upload it to your data lake workspace yourself. Here's our [Data handling guide](https://adb-7393756451346106.6.azuredatabricks.net/?o=7393756451346106#notebook/486749531468438/command/486749531468443)
+This report uses a dataset on Environment Service Requests received by Leeds City Council, which is available [here](https://datamillnorth.org/dataset/e61k0/environmental-service-requests). The data is available in Fluke's data lake workspace (location path is shown below). However, we'd recommend you try to download the data and upload it to your data lake workspace yourself. Here's our [Data handling guide](https://adb-7393756451346106.6.azuredatabricks.net/?o=7393756451346106#notebook/486749531468438/command/486749531468443).
 
-- Data Lake location: /dbfs/mnt/lab/unrestricted/fluke.kasemsubphaisarn@defra.gov.uk/Accelerator/Pilot/Leeds_Service_Requests_2007_2011.csv
+- Data Lake location **/dbfs/mnt/lab/unrestricted/fluke.kasemsubphaisarn@defra.gov.uk/Accelerator/Pilot/Leeds_Service_Requests_2007_2011.csv**
 
 
 ## 3.3 Using your own data
@@ -88,4 +86,4 @@ We hope you enjoyed spending the day on the DASH platform and we hope to see you
 - [PowerBI Data Process Flowchart](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png) and [Flowchart Guidance with Screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)
 - Penguins report ([PDF](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_MT_V1.pdf), [.pbix](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_V1_MT.pbix), you need to download this to view it)
 - [Leeds Environmental Service Requests](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
-- Sign up to our [Data Science Sessions]((https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
+- Sign up to our [Data Science Sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
