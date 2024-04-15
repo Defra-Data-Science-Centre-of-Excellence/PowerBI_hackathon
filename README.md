@@ -21,8 +21,9 @@ Thank you for signing up to our Power BI Hackathon! Here is some important infor
 
 If you are not already a Power BI evangelist, fear not. Power BI is an extremely versatile and user friendly tool. We have provided below a list of resources to help you get started. Remember, it's always a good idea to google or we can try to answer any questions you might have. 
 
-- Microsoft Learn
-- Data Camp
+- [Microsoft Learn](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
+- [DataCamp](https://app.datacamp.com/search?q=Power+BI)
+  - We now offer unlimited DataCamp licenses so if you haven't yet, go and sign up [here](https://defra.sharepoint.com/sites/Community448/SitePages/Unlimited-DataCamp-licenses.aspx)!
 
 ## 2.2 Accessing Power BI & DASH data
 
@@ -51,7 +52,12 @@ Here is the PDF copy of the Power BI report that uses the penguin dataset. This 
 
 Here is the PDF copy of the Power BI report that uses the Leeds service request data. This report will be more suitable for you if you already feel somewhat comfortable with Power BI. It brings together all the features of Power BI, including importing data to DASH, advanced data cleaning in Power Query, creating measures using DAX and geospatial analysis.
 
+We'd recommend you try to download the data and upload it to your data lake workspace yourself but if you are finding it too difficult, the data is also available in Fluke's data lake workspace (location's down below).
+
+[Data handling guide](https://adb-7393756451346106.6.azuredatabricks.net/?o=7393756451346106#notebook/486749531468438/command/486749531468443)
 [Data Source](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
+Data Lake location: /dbfs/mnt/lab/unrestricted/fluke.kasemsubphaisarn@defra.gov.uk/Accelerator/Pilot/Leeds_Service_Requests_2007_2011.csv
+
 
 ## 3.3 Using your own data
 
