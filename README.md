@@ -45,16 +45,16 @@ Here is the [PDF copy](https://github.com/Defra-Data-Science-Centre-of-Excellenc
 
 ## 3.2 Leeds environmental service requests (Advanced)
 
-Here is the PDF copy of the Power BI report that uses the Leeds service request data. This report will be more suitable for you if you already feel somewhat comfortable with Power BI. It brings together all the features of Power BI, including importing data to DASH, advanced data cleaning in Power Query, creating measures using DAX and geospatial analysis.
+Here is the PDF copy of the Power BI report that uses the 'Leeds service requests' data. This report will be more suitable for you if you already feel somewhat comfortable with Power BI. It brings together all the features of Power BI, including importing data to DASH, advanced data cleaning in Power Query, creating measures using DAX and geospatial analysis.
 
-This report uses a dataset on Environment Service Requests received by Leeds City Council, which is available [here](https://datamillnorth.org/dataset/e61k0/environmental-service-requests). The data is available in Fluke's data lake workspace (location path is shown below). However, we'd recommend you try to download the data and upload it to your data lake workspace yourself. Here's our [Data handling guide](https://adb-7393756451346106.6.azuredatabricks.net/?o=7393756451346106#notebook/486749531468438/command/486749531468443).
+This report uses a dataset on Environment Service Requests received by Leeds City Council, which is available [here](https://datamillnorth.org/dataset/e61k0/environmental-service-requests). The data is available in Fluke's data lake workspace (location path is shown below; please let us know if the path looks greek to you, we'll walk you through it). However, we'd recommend you try to download the data and upload it to your data lake workspace yourself. Here's our [Data Handling Guide](https://adb-7393756451346106.6.azuredatabricks.net/?o=7393756451346106#notebook/486749531468438/command/486749531468443).
 
 - Data Lake location **/dbfs/mnt/lab/unrestricted/fluke.kasemsubphaisarn@defra.gov.uk/Accelerator/Pilot/Leeds_Service_Requests_2007_2011.csv**
 
 
 ## 3.3 Using your own data
 
-Using the information we have supplied abover, you should be able to either upload your own data to the data lake or navigate to and select one or more of the existing datasets already living in the DASH Data Lake. Any questions, let us know, we'll do our best to help you. It might be a good idea to wireframe your end product and think of your user needs before starting creating your visuals.
+Using the information we have supplied above, you should be able to either upload your own data to the data lake or navigate to and select one or more of the existing datasets already living in the DASH Data Lake. Any questions, let us know, we'll do our best to help you. It might be a good idea to wireframe your end product and think of your user needs before starting creating your visuals.
 
 
 <br>
@@ -84,6 +84,6 @@ We hope you enjoyed spending the day on the DASH platform and we hope to see you
 - [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/)
 - [DASH SharePoint](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
 - [PowerBI Data Process Flowchart](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png) and [Flowchart Guidance with Screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)
-- Penguins report ([PDF](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_MT_V1.pdf), [.pbix](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_V1_MT.pbix), you need to download this to view it)
+- Penguins report ([PDF](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_MT_V1.pdf), [.pbix](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_V1_MT.pbix), you might need to download this and open it with PowerBI desktop to view it)
 - [Leeds Environmental Service Requests](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
 - Sign up to our [Data Science Sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
