@@ -54,9 +54,9 @@ Here is the PDF copy of the Power BI report that uses the Leeds service request 
 
 We'd recommend you try to download the data and upload it to your data lake workspace yourself but if you are finding it too difficult, the data is also available in Fluke's data lake workspace (location's down below).
 
-[Data handling guide](https://adb-7393756451346106.6.azuredatabricks.net/?o=7393756451346106#notebook/486749531468438/command/486749531468443)
-[Data Source](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
-Data Lake location: /dbfs/mnt/lab/unrestricted/fluke.kasemsubphaisarn@defra.gov.uk/Accelerator/Pilot/Leeds_Service_Requests_2007_2011.csv
+- [Data handling guide](https://adb-7393756451346106.6.azuredatabricks.net/?o=7393756451346106#notebook/486749531468438/command/486749531468443)
+- [Data Source](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
+- Data Lake location: /dbfs/mnt/lab/unrestricted/fluke.kasemsubphaisarn@defra.gov.uk/Accelerator/Pilot/Leeds_Service_Requests_2007_2011.csv
 
 
 ## 3.3 Using your own data
