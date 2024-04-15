@@ -22,23 +22,18 @@ Thank you for signing up to our Power BI Hackathon! Here is some important infor
 If you are not already a Power BI evangelist, fear not. Power BI is an extremely versatile and user friendly tool. We have provided below a list of resources to help you get started. Remember, it's always a good idea to google or we can try to answer any questions you might have. 
 
 - [Microsoft Learn](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
-- [DataCamp](https://app.datacamp.com/search?q=Power+BI)
-  - We now offer unlimited DataCamp licenses so if you haven't yet, go and sign up [here](https://defra.sharepoint.com/sites/Community448/SitePages/Unlimited-DataCamp-licenses.aspx)!
+- [DataCamp](https://app.datacamp.com/search?q=Power+BI) - here's a [link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership) to sign up for a free premium DataCamp acount, on us! 
 
 ## 2.2 Accessing Power BI & DASH data
 
-- To open Power BI, you will need to sign to the [Azure Virtual Desktop (AVD)](https://client.wvd.microsoft.com/arm/webclient/index.html). Please read through the [relevant chapter in our Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/avd.html) for more information on logging on and using the AVD.
-- [Chapter 8.3](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/avd.html) provides a detail walkthrough on accessing data from Power BI. We have used exactly the same dataset displayed in this chapter (the penguins!). 
+- To open Power BI, you will need to sign to the [Azure Virtual Desktop (AVD)](https://client.wvd.microsoft.com/arm/webclient/index.html). Please read through [Chapter 8.1](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/avd.html)  in our Playbook for more information on logging on and using the AVD.
+- [Chapter 8.3](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/avd.html) provides a detailed walkthrough for importing DASH data to Power BI, however, this and other routes for importing data are described further in the next section.
 
 ## 2.3 Power BI data workflows
 
-There's a variety of ways to import data but most of the time, you will only need to import data from the Sharepoint, OneDrive or Data Lake. The flow chart below guides you through the steps to take to import data from those areas.
+There's a variety of ways to import data but most of the time, you will only need to import data from the Sharepoint, OneDrive or Data Lake (the DASH platfrom!). The flow chart below guides you through the steps to take to import data from those areas. We have also provided detailed [guidance with screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/belob/main/Power%20BI%20Data%20Process%20(2).png) for each of the processes described in our flowchart.
 
-<img src="https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png" alt="Importing data workflow" width="400" height="400">
-
-_Data Lake copy & paste link: https://prddapdlkst2401.dfs.core.windows.net/_
-
-_[Guidance with screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)_
+<img src="https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png" alt="Importing data workflow" width="800" height="800">
 
 <br>
 
@@ -46,23 +41,20 @@ _[Guidance with screenshots](https://github.com/Defra-Data-Science-Centre-of-Exc
 
 ## 3.1 Penguins (Basic)
 
-Here is the PDF copy of the Power BI report that uses the penguin dataset. This report will be more suitable to people with limited or no previous experience on Power BI. It focuses mainly on showcasing the 'power' and versatility of Power BI, without focussing too much on the most complex parts of working with Power BI, such as DAX and PowerQuery.
+Here is the [PDF copy](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_MT_V1.pdf) of the Power BI report. It uses the 'penguins' dataset (hint: it's the same dataset described in [Chapter 8.3](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/avd.html) of our Playbook!). This report will be more suitable to people with limited or no previous experience on Power BI. It focuses mainly on showcasing the 'power' and versatility of Power BI, without focussing too much on the most complex parts of working with Power BI, such as Data Analysis Expressions (DAX) and PowerQuery.
 
 ## 3.2 Leeds environmental service requests (Advanced)
 
-Here is the PDF copy of the Power BI report that uses the Leeds service request data. This report will be more suitable for you if you already feel somewhat comfortable with Power BI. It brings together all the features of Power BI, including importing data to DASH, advanced data cleaning in Power Query, creating measures using DAX and geospatial analysis.
+Here is the PDF copy of the Power BI report that uses the 'Leeds service requests' data. This report will be more suitable for you if you already feel somewhat comfortable with Power BI. It brings together all the features of Power BI, including importing data to DASH, advanced data cleaning in Power Query, creating measures using DAX and geospatial analysis.
 
-We'd recommend you try to download the data and upload it to your data lake workspace yourself but if you are finding it too difficult, the data is also available in Fluke's data lake workspace (location's down below).
+This report uses a dataset on Environment Service Requests received by Leeds City Council, which is available [here](https://datamillnorth.org/dataset/e61k0/environmental-service-requests). The data is available in Fluke's data lake workspace (location path is shown below; please let us know if the path looks greek to you, we'll walk you through it). However, we'd recommend you try to download the data and upload it to your data lake workspace yourself. Here's our [Data Handling Guide](https://adb-7393756451346106.6.azuredatabricks.net/?o=7393756451346106#notebook/486749531468438/command/486749531468443).
 
-- [Data handling guide](https://adb-7393756451346106.6.azuredatabricks.net/?o=7393756451346106#notebook/486749531468438/command/486749531468443)
-- [Data Source](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
-- Data Lake location: /dbfs/mnt/lab/unrestricted/fluke.kasemsubphaisarn@defra.gov.uk/Accelerator/Pilot/Leeds_Service_Requests_2007_2011.csv
+- Data Lake location **/dbfs/mnt/lab/unrestricted/fluke.kasemsubphaisarn@defra.gov.uk/Accelerator/Pilot/Leeds_Service_Requests_2007_2011.csv**
 
 
 ## 3.3 Using your own data
 
-- Here you can find information on how to upload your own data on the DASH platform.
-- It might be a good idea to wireframe your end product / think of your user needs before creating visuals.
+Using the information we have supplied above, you should be able to either upload your own data to the data lake or navigate to and select one or more of the existing datasets already living in the DASH Data Lake. Any questions, let us know, we'll do our best to help you. It might be a good idea to wireframe your end product and think of your user needs before starting creating your visuals.
 
 
 <br>
@@ -83,13 +75,15 @@ There are quite few options for sharing your dashboard. The one you chose will d
 
 # 4.3 Advertising
 
-We hope you enjoyed spending the day on the DASH platform and we hope to see you again soon. We would be very keen to invite you to one of our Data Science Sessions or User Forums to share your experience and work with more colleagues. This is part of our efforts to encourage users to familiarize and use DASH, as we move to our live phase of the DASH program.
+We hope you enjoyed spending the day on the DASH platform and we hope to see you again soon. We would be very keen to invite you to our next Data Science Session (17th May; please sign up [here](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx) to receive invites) to share your experience and work with more colleagues that are currently being onboarded to the DASH platform. 
 
 <br>
 
 # 5. Useful links
 
 - [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/)
-- SharePoint
-- Penguins report
+- [DASH SharePoint](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
+- [PowerBI Data Process Flowchart](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png) and [Flowchart Guidance with Screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)
+- Penguins report ([PDF](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_MT_V1.pdf), [.pbix](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_V1_MT.pbix), you might need to download this and open it with PowerBI desktop to view it)
 - [Leeds Environmental Service Requests](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
+- Sign up to our [Data Science Sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
