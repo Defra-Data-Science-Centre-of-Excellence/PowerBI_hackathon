@@ -5,6 +5,10 @@
 
 ---
 
+
+	
+[![Launch week logo](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/launch%20banner%20intranet%201.png)](https://defra.sharepoint.com/sites/Community448/SitePages/DASH-Launch-Week.aspx)
+
 # 1. Introduction
 
 Thank you for signing up to our Power BI Hackathon! Here is some important information for the day:
