@@ -22,21 +22,18 @@ Thank you for signing up to our Power BI Hackathon! Here is some important infor
 If you are not already a Power BI evangelist, fear not. Power BI is an extremely versatile and user friendly tool. We have provided below a list of resources to help you get started. Remember, it's always a good idea to google or we can try to answer any questions you might have. 
 
 - [Microsoft Learn](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
-- [DataCamp](https://app.datacamp.com/search?q=Power+BI)
-  - We now offer unlimited DataCamp licenses so if you haven't yet, go and sign up [here](https://defra.sharepoint.com/sites/Community448/SitePages/Unlimited-DataCamp-licenses.aspx)!
+- [DataCamp](https://app.datacamp.com/search?q=Power+BI) - here's a [link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership) to sign up for a free premium DataCamp acount, on us! 
 
 ## 2.2 Accessing Power BI & DASH data
 
-- To open Power BI, you will need to sign to the [Azure Virtual Desktop (AVD)](https://client.wvd.microsoft.com/arm/webclient/index.html). Please read through the [relevant chapter in our Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/avd.html) for more information on logging on and using the AVD.
-- [Chapter 8.3](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/avd.html) provides a detail walkthrough on accessing data from Power BI. We have used exactly the same dataset displayed in this chapter (the penguins!). 
+- To open Power BI, you will need to sign to the [Azure Virtual Desktop (AVD)](https://client.wvd.microsoft.com/arm/webclient/index.html). Please read through [Chapter 8.1](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/avd.html)  in our Playbook for more information on logging on and using the AVD.
+- [Chapter 8.3](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/avd.html) provides a detail walkthrough on accessing DASH data from Power BI, however we are providing more information below for different 
 
 ## 2.3 Power BI data workflows
 
 There's a variety of ways to import data but most of the time, you will only need to import data from the Sharepoint, OneDrive or Data Lake. The flow chart below guides you through the steps to take to import data from those areas.
 
-<img src="https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png" alt="Importing data workflow" width="400" height="400">
-
-_Data Lake copy & paste link: https://prddapdlkst2401.dfs.core.windows.net/_
+<img src="https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png" alt="Importing data workflow" width="800" height="800">
 
 _[Guidance with screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)_
 
