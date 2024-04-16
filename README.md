@@ -102,7 +102,7 @@ We hope you enjoyed spending the day on the DASH platform and we hope to see you
 
 
 
-#6. Contact
+# 6. Contact
 
 Please get in touch with [datascience@defra.gov.uk](mailto:datascience@defra.gov.uk) if you have any questions or suggestions.
 
