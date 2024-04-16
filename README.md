@@ -21,12 +21,19 @@ Thank you for signing up to our Power BI Hackathon! Here is some important infor
 
 # 2. Setting the scene
 
-## 2.1 Resources and Training
+## 2.1 Training and Resources
 
 If you are not already a Power BI evangelist, fear not. Power BI is an extremely versatile and user friendly tool. We have provided below a list of resources to help you get started. Remember, it's always a good idea to google or we can try to answer any questions you might have. 
 
+### Training
+- Defra Power BI Community on [Sharepoint](https://defra.sharepoint.com/sites/Community909/SitePages/Power-BI-Home.aspx)
 - [Microsoft Learn](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
-- [DataCamp](https://app.datacamp.com/search?q=Power+BI) - here's a [link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership) to sign up for a free premium DataCamp acount, on us! 
+- [DataCamp](https://app.datacamp.com/search?q=Power+BI) - here's a [link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership) to sign up for a free premium DataCamp acount, on us!
+
+### Resources
+- [Figma]() is a great tool to plan how you want your dashboard to look
+- Check out [Dribble]() for some dashboard inspirations
+- Power BI, Fabric and Excel Community on [Yammer](https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIzNTQyODgyNzEzNyJ9/new)
 
 ## 2.2 Accessing Power BI & DASH data
 
