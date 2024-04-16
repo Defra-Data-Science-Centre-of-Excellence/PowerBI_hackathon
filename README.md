@@ -35,7 +35,7 @@ If you are not already a Power BI evangelist, fear not. Power BI is an extremely
 
 ## 2.3 Power BI data workflows
 
-There's a variety of ways to import data but most of the time, you will only need to import data from the Sharepoint, OneDrive or Data Lake (the DASH platfrom!). The flow chart below guides you through the steps to take to import data from those areas. We have also provided detailed [guidance with screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/belob/main/Power%20BI%20Data%20Process%20(2).png) for each of the processes described in our flowchart.
+There's a variety of ways to import data but most of the time, you will only need to import data from the Sharepoint, OneDrive or Data Lake (the DASH platfrom!). The flow chart below guides you through the steps to take to import data from those areas. We have also provided detailed [guidance with screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/screenshot_guidance.png) for each of the processes described in our flowchart.
 
 <img src="https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png" alt="Importing data workflow" width="800" height="800">
 
@@ -85,10 +85,23 @@ We hope you enjoyed spending the day on the DASH platform and we hope to see you
 
 # 5. Useful links
 
+## DASH
 - [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/)
 - [DASH SharePoint](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
+- Sign up to our [Data Science Sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
+
+## Power BI
+- [Microsoft Learn](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
+- Datacamp ([premium sign up](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership), [Power BI courses](https://app.datacamp.com/search?q=Power+BI))
+- [Logging on, using, and importing the penguin data on PowerBI on the AVD](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/avd.html)
 - [PowerBI Data Process Flowchart](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(1).png) and [Flowchart Guidance with Screenshots](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Power%20BI%20Data%20Process%20(2).png)
 - Penguins Report ([PDF](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_MT_V1.pdf), [.pbix](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/sample_penguins_V1_MT.pbix), you might need to download this and open it with PowerBI desktop to view it)
 - [Leeds Environmental Service Requests](https://datamillnorth.org/dataset/e61k0/environmental-service-requests)
 - Leeds Environmental Service Requests Report [PDF](https://github.com/Defra-Data-Science-Centre-of-Excellence/PowerBI_hackathon/blob/main/Leeds%20Service%20Requests%20Report.pdf), [Report](https://app.powerbi.com/links/xsZXkk1whR?ctid=770a2450-0227-4c62-90c7-4e38537f1102&pbi_source=linkShare)
-- Sign up to our [Data Science Sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
+- Databricks Data Handling guide (leaving blank on purpose for now - remember to change above when we decide where this will live)
+
+
+
+#6. Contact
+Please get in touch with [datascience@defra.gov.uk](mailto:datascience@defra.gov.uk) if you have any questions or suggestions.
+
