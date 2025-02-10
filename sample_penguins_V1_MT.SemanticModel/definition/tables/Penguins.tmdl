@@ -1,0 +1,142 @@
+table Penguins
+	lineageTag: 7417eb24-f03b-4074-b11f-e5797acefa27
+
+	measure 'Total penguins' = DISTINCTCOUNT(Penguins[Index])
+		formatString: 0
+		lineageTag: 0a80d4bb-f057-4c9a-8010-0c108eebdaea
+
+	measure 'Male penguins' = CALCULATE(DISTINCTCOUNT(Penguins[Index]), Penguins[sex] = "male")
+		formatString: 0
+		lineageTag: 20c570dd-71da-4511-8277-bbdf25523c8d
+
+	measure 'Female penguins' = CALCULATE(DISTINCTCOUNT(Penguins[Index]), Penguins[sex] = "female")
+		formatString: 0
+		lineageTag: f5e7a4c8-c187-4b92-9428-1f463cd8a211
+
+	column species
+		dataType: string
+		lineageTag: 11874a48-4489-4f52-acdc-1e512e76d35c
+		summarizeBy: none
+		sourceColumn: species
+
+		annotation SummarizationSetBy = Automatic
+
+	column island
+		dataType: string
+		lineageTag: 7b99d1d3-9691-40ee-ba69-85b6b6b42bd7
+		summarizeBy: none
+		sourceColumn: island
+
+		annotation SummarizationSetBy = Automatic
+
+	column bill_length_mm
+		dataType: double
+		formatString: 0.0
+		lineageTag: 5e0ad7f4-0f5a-4ef1-9b93-a69ed505801d
+		summarizeBy: sum
+		sourceColumn: bill_length_mm
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	column bill_depth_mm
+		dataType: double
+		lineageTag: e7b7e758-6b0c-4fa3-98b9-e343a4fc4f4a
+		summarizeBy: sum
+		sourceColumn: bill_depth_mm
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column flipper_length_mm
+		dataType: double
+		formatString: 0
+		lineageTag: ab553884-57f0-46e3-a4e8-d796de128190
+		summarizeBy: sum
+		sourceColumn: flipper_length_mm
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column body_mass_g
+		dataType: double
+		formatString: #,0
+		lineageTag: 00f50ce1-1754-4ad0-9082-041e14cf5103
+		summarizeBy: sum
+		sourceColumn: body_mass_g
+
+		annotation SummarizationSetBy = Automatic
+
+	column sex
+		dataType: string
+		lineageTag: 9f40a742-86cd-4663-98fa-fbf3fa637c59
+		summarizeBy: none
+		sourceColumn: sex
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: b4bcad32-8c39-45d7-a9cf-3f97db489bf8
+		summarizeBy: sum
+		sourceColumn: year
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	column Index
+		dataType: int64
+		formatString: 0
+		lineageTag: b3dddd41-4fda-4857-b384-3942ad7c1ce7
+		summarizeBy: sum
+		sourceColumn: Index
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'species Hierarchy'
+		lineageTag: e393f41f-f492-4da0-9120-cd9d15e9524d
+
+		level species
+			lineageTag: b601fdf2-0d3d-406e-b4d1-3fba48eb18bd
+			column: species
+
+		level island
+			lineageTag: b2faade3-7e96-414a-be51-8088dd02a0e6
+			column: island
+
+		level sex
+			lineageTag: 3f5dd33c-abbd-486c-8857-458dfb78cf3b
+			column: sex
+
+	partition Penguins = m
+		mode: import
+		source =
+				let
+				    Source = AzureStorage.DataLake("https://prddapdlkst2401.dfs.core.windows.net/lab/unrestricted/R_training/penguins.csv"),
+				    #"Filtered Hidden Files1" = Table.SelectRows(Source, each [Attributes]?[Hidden]? <> true),
+				    #"Invoke Custom Function1" = Table.AddColumn(#"Filtered Hidden Files1", "Transform File", each #"Transform File"([Content])),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Invoke Custom Function1", {"Name", "Source.Name"}),
+				    #"Removed Other Columns1" = Table.SelectColumns(#"Renamed Columns1", {"Source.Name", "Transform File"}),
+				    #"Expanded Table Column1" = Table.ExpandTableColumn(#"Removed Other Columns1", "Transform File", Table.ColumnNames(#"Transform File"(#"Sample File"))),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Expanded Table Column1",{{"Source.Name", type text}, {"species", type text}, {"island", type text}, {"bill_length_mm", type text}, {"bill_depth_mm", type text}, {"flipper_length_mm", type text}, {"body_mass_g", type text}, {"sex", type text}, {"year", Int64.Type}}),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Changed Type",{"species", "island", "bill_length_mm", "bill_depth_mm", "flipper_length_mm", "body_mass_g", "sex", "year"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Removed Other Columns", each ([bill_depth_mm] <> null and [bill_depth_mm] <> "" and [bill_depth_mm] <> "NA")),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Filtered Rows",{{"flipper_length_mm", type number}}),
+				    #"Filtered Rows1" = Table.SelectRows(#"Changed Type1", each true),
+				    #"Changed Type2" = Table.TransformColumnTypes(#"Filtered Rows1",{{"body_mass_g", type number}}),
+				    #"Filtered Rows2" = Table.SelectRows(#"Changed Type2", each ([sex] <> "NA")),
+				    #"Added Index1" = Table.AddIndexColumn(#"Filtered Rows2", "Index.1", 1, 1, Int64.Type),
+				    #"Renamed Columns" = Table.RenameColumns(#"Added Index1",{{"Index.1", "Index"}}),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Renamed Columns",{"Index", "species", "island", "bill_length_mm", "bill_depth_mm", "flipper_length_mm", "body_mass_g", "sex", "year"})
+				in
+				    #"Reordered Columns"
+
+	annotation PBI_ResultType = Table
+

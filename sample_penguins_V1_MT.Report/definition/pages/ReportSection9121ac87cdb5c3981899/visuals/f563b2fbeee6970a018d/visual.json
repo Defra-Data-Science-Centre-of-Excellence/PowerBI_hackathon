@@ -1,0 +1,70 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "f563b2fbeee6970a018d",
+  "position": {
+    "x": 21.235023041474655,
+    "y": 126.23041474654377,
+    "z": 2000,
+    "height": 434.13824884792626,
+    "width": 149.82488479262673,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "As part of today's hackathon, the DASH team offered the opportunity to participants for an RShiny session. ",
+                    "textStyle": {
+                      "fontSize": "16px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "We have here replicated the RShiny dashboard using PowerBI. ",
+                    "textStyle": {
+                      "fontSize": "16px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "If you want to learn more about RShiny or give the penguins a go there, please see this repository.",
+                    "textStyle": {
+                      "fontSize": "16px"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

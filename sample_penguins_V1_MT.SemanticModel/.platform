@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "sample_penguins_V1_MT"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "108a1a03-92bb-4a40-b983-2878cc0f71b9"
+  }
+}

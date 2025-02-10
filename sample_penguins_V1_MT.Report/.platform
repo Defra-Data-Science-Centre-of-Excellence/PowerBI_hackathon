@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "sample_penguins_V1_MT"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3eb501f9-49a3-41b7-861c-fb6df8aa0d15"
+  }
+}

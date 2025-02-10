@@ -1,0 +1,42 @@
+expression Parameter1 = #"Sample File" meta [IsParameterQuery=true, BinaryIdentifier=#"Sample File", Type="Binary", IsParameterQueryRequired=true]
+	lineageTag: 35f60515-8b4a-4a78-98f6-1fbdf2293f79
+	queryGroup: 'Transform File from Query1\Helper Queries'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transform Sample File' =
+		let
+		    Source = Csv.Document(Parameter1,[Delimiter=",", Columns=8, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true])
+		in
+		    #"Promoted Headers"
+	lineageTag: b0ddbc02-b868-472b-8a71-d7cf13fdfa26
+	queryGroup: 'Transform File from Query1'
+
+	annotation PBI_ResultType = Table
+
+expression 'Sample File' =
+		let
+		    Source = AzureStorage.DataLake("https://prddapdlkst2401.dfs.core.windows.net/lab/unrestricted/R_training/penguins.csv"),
+		    #"https://prddapdlkst2401 dfs core windows net/lab/unrestricted/R_training/_penguins csv" = Source{[#"Folder Path"="https://prddapdlkst2401.dfs.core.windows.net/lab/unrestricted/R_training/",Name="penguins.csv"]}[Content]
+		in
+		    #"https://prddapdlkst2401 dfs core windows net/lab/unrestricted/R_training/_penguins csv"
+	lineageTag: c7f461a8-dfbf-4eab-a539-f88b39a7c3fb
+	queryGroup: 'Transform File from Query1\Helper Queries'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transform File' =
+		let
+		    Source = (Parameter1 as binary) => let
+		    Source = Csv.Document(Parameter1,[Delimiter=",", Columns=8, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true])
+		in
+		    #"Promoted Headers"
+		in
+		    Source
+	lineageTag: d40da876-5ac3-424a-b064-c256c13e842b
+	queryGroup: 'Transform File from Query1\Helper Queries'
+
+	annotation PBI_ResultType = Function
+

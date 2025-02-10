@@ -1,0 +1,135 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "77801ce4104e204701ec",
+  "position": {
+    "x": 21.235023041474655,
+    "y": 126.23041474654377,
+    "z": 1000,
+    "height": 434.13824884792626,
+    "width": 149.82488479262673,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "PowerBi offers a plethora of visuals, besides the most typical we have seen so far. ",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "In this page, we have configured the following: ",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "- ",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "Q&A visual",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    },
+                    "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-q-and-a?tabs=powerbi-desktop"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "- ",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "Key influencers",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    },
+                    "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers?tabs=powerbi-desktop"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "- ",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "Decomposition tree",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    },
+                    "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-decomposition-tree"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Click on each of the hot links above to read more about each chart. ",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

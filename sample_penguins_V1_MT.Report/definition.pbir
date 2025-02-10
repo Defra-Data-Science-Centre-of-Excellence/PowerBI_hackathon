@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../sample_penguins_V1_MT.SemanticModel"
+    },
+    "byConnection": null
+  }
+}
